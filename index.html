@@ -32,13 +32,13 @@
             </div>
 
             <ul class="flex-list list-items-circle">
-                <li>
+                <!-- <li>
                     <a href="https://www.linkedin.com/in/derrek-brack-5180a8286/" target="_blank">
                         <i class="fab fa-linkedin"></i>
                     </a>
-                </li>
+                </li> -->
                 <li>
-                    <a href="https://github.com/D-Brack/" target="_blank">
+                    <a href="https://github.com/derrek-b/" target="_blank">
                         <i class="fab fa-github"></i>
                     </a>
                 </li>
@@ -57,13 +57,13 @@
 
         <h1>
             Hi, I’m Derrek Brack<br />
-            Blockchain developer
+            Blockchain developer · Operator
         </h1>
 
         <ul class="contact-details flex-list">
             <li>Digital Nomad, United States</li>
             <hr />
-            <li>(412) 585-1204</li>
+            <li>412.585.1204</li>
             <hr />
             <li><a href="mailto: derrek.brack@protonmail.com" style="border: none;">derrek.brack@protonmail.com</a></li>
         </ul>
@@ -76,12 +76,23 @@
             <div class="flex-between">
                 <h2>Take a look at my projects</h2>
 
-                <a href="https://github.com/D-Brack/" class="projects-link flex-between" target="_blank">
+                <a href="https://github.com/derrek-b/" class="projects-link flex-between" target="_blank">
                     See all works <img src="./img/ArrowUpRight.svg" alt="Arrow" style="margin-left: 8px; opacity: 0.7;">
                 </a>
             </div>
 
             <div class="cards flex-center">
+                <div class="card">
+                    <img src="./img/projects/d-fied.png" alt="">
+                    <h3 class="card-title">D-fied</h3>
+                    <p class="card-description">Non-custodial automated DeFi liquidity management platform</p>
+
+                    <div class="card-buttons">
+                        <a href="https://d-fied.vercel.app/demo" class="card-button--site" target="_blank">Site</a>
+                        <a href="https://github.com/derrek-b/fum_project" class="card-button--code" target="_blank">Code</a>
+                    </div>
+                </div>
+
                 <div class="card">
                     <img src="./img/projects/project_1.png" alt="">
                     <h3 class="card-title">JADU AVAs Charitable DAO</h3>
@@ -92,28 +103,6 @@
                         <a href="https://github.com/D-Brack/jacd" class="card-button--code" target="_blank">Code</a>
                     </div>
                 </div>
-
-                <!-- <div class="card">
-                    <img src="./img/projects/project_2.png" alt="">
-                    <h3 class="card-title">Compound</h3>
-                    <p class="card-description">Compound is an algorithmic, autonomous interest rate protocol...</p>
-
-                    <div class="card-buttons">
-                        <a href="#" class="card-button--site">Site</a>
-                        <a href="#" class="card-button--code">Code</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="./img/projects/project_3.png" alt="">
-                    <h3 class="card-title">Aave</h3>
-                    <p class="card-description">Earn interest, borrow assets, and build applications.</p>
-
-                    <div class="card-buttons">
-                        <a href="#" class="card-button--site">Site</a>
-                        <a href="#" class="card-button--code">Code</a>
-                    </div>
-                </div> -->
             </div>
         </section>
 
@@ -121,9 +110,11 @@
 
         <section class="section about">
             <h2>
-                I am a blockchain developer, crypto & NFT maximalist, and
-                web3 gaming enthusiast looking to do what I can to help move
-                the development and adoption of blockchain and web3 technologies forward.
+                Small business owner and blockchain engineer transitioning to full-time software development.
+                I combine 17+ years of hands-on operational experience &mdash; built and ran a multi-property
+                construction company with 16 employees &mdash; with a formal computer programming background
+                and experience building a DeFi liquidity management platform. Ready to bring that same end-to-end
+                ownership to serious blockchain and web3 work.
             </h2>
 
             <!-- <ul class="achievements">
@@ -137,42 +128,57 @@
         <section class="section skills">
             <h2>Skills that I have</h2>
 
-            <div class="skill-cards flex-center">
-                <div class="skill-card flex-center">
-                    <i class="fab fa-html5"></i>
+            <div class="skill-groups">
+                <div class="skill-group">
+                    <h3 class="skill-group-label">Languages</h3>
+                    <ul class="skill-chips">
+                        <li>Solidity</li>
+                        <li>JavaScript</li>
+                        <li>Java</li>
+                        <li>SQL</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Python</li>
+                    </ul>
                 </div>
-                <div class="skill-card flex-center">
-                    <i class="fab fa-css3-alt"></i>
+
+                <div class="skill-group">
+                    <h3 class="skill-group-label">Blockchain</h3>
+                    <ul class="skill-chips">
+                        <li>Hardhat</li>
+                        <li>ethers.js</li>
+                        <li>Uniswap V3/V4</li>
+                        <li>Trader Joe V2.2</li>
+                        <li>Arbitrum</li>
+                        <li>Avalanche</li>
+                        <li>Solana</li>
+                    </ul>
                 </div>
-                <div class="skill-card flex-center">
-                    <i class="fab fa-js"></i>
+
+                <div class="skill-group">
+                    <h3 class="skill-group-label">Frontend</h3>
+                    <ul class="skill-chips">
+                        <li>React 19</li>
+                        <li>Next.js 15</li>
+                        <li>Redux Toolkit</li>
+                    </ul>
                 </div>
-                <div class="skill-card flex-center">
-                    <i class="fab fa-ethereum"></i>
+
+                <div class="skill-group">
+                    <h3 class="skill-group-label">Backend</h3>
+                    <ul class="skill-chips">
+                        <li>Node.js</li>
+                        <li>WebSockets</li>
+                        <li>Server-Sent Events</li>
+                        <li>Vitest</li>
+                    </ul>
                 </div>
-                <div class="skill-card flex-center">
-                    <i class="fab fa-react"></i>
-                </div>
-                <div class="skill-card flex-center">
-                    <i class="fab fa-node-js"></i>
-                </div>
-                <div class="skill-card flex-center">
-                    <i class="fab fa-python"></i>
-                </div>
-                <div class="skill-card flex-center">
-                    <i class="fab fa-free-code-camp"></i>
-                </div>
-                <!-- <div class="skill-card flex-center">
-                    <i class="fab fa-wordpress"></i>
-                </div>
-                <div class="skill-card flex-center">
-                    <i class="fab fa-gulp"></i>
-                </div>
-                <div class="skill-card flex-center">
-                    <i class="fab fa-grunt"></i>
-                </div> -->
-                <div class="skill-card flex-center">
-                    <i class="fab fa-npm"></i>
+
+                <div class="skill-group">
+                    <h3 class="skill-group-label">AI Tooling</h3>
+                    <ul class="skill-chips">
+                        <li>Claude Code (AI pair programming)</li>
+                    </ul>
                 </div>
             </div>
 
@@ -188,10 +194,9 @@
 
         <section class="section experience">
             <p class="experience-description">
-                I'm a self-motivated small business owner looking for opportunities unavailable in a trades
-                career.  Excited to fuse the work ethic and experience I've gained managing all aspects of
-                a million-dollar construction business with the combined formal and self-taught coding
-                knowledge base I've worked for to further the cause of blockchain and web3 technologies.
+                Fusing 17+ years of running my own business &mdash; protocols, systems, and people
+                built from scratch &mdash; with formal computer programming training and a solo-built
+                production DeFi platform.
                 <img src="./img/Dot.svg" alt="Blue Dot">
             </p>
 
@@ -200,36 +205,59 @@
             <div class="experience-cards flex-center">
                 <div class="experience-card">
                     <h3 class="card-title">
-                        Peak Painting LLC - <span class="highlight">Owner/Operator/Partner</span>
+                        D-fied - <span class="highlight">Full-Stack Blockchain Developer</span>
                     </h3>
-                    <p class="card-years">2007-Current</p>
+                    <p class="card-years">February 2025 - Present</p>
 
                     <ul class="card-list">
-                        <li class="card-list-item">Create processes & protocols from scratch</li>
-                        <li class="card-list-item">Learn accounting, HR, leadership, etc. independently & on the fly </li>
+                        <li class="card-list-item">Designed and built a non-custodial DeFi liquidity management platform from scratch across Uniswap V3/V4 and Trader Joe V2.2 on Arbitrum and Avalanche</li>
+                        <li class="card-list-item">Authored 19 Solidity contracts anchored by a pluggable validator pattern that enforces calldata recipient addresses on-chain, complemented by EIP-1271 signature validation</li>
+                        <li class="card-list-item">Built a 24/7 event-driven Node.js automation service with WebSocket subscriptions, SSE broadcasting, BIP-32 HD executor wallets, and dual-layer health monitoring</li>
+                        <li class="card-list-item">Developed a platform-adapter abstraction that hides platform specifics behind a unified 27-method interface</li>
+                        <li class="card-list-item">Shipped 92 automated tests across three environments &mdash; Hardhat unit, Vitest against live Arbitrum & Avalanche forks, and library integration</li>
                     </ul>
                 </div>
                 <div class="experience-card">
                     <h3 class="card-title">
-                        University of Pittsburgh - <span class="highlight">BA Philosophy</span>
+                        Peak Painting LLC / Brack Painting - <span class="highlight">Owner / Partner / Operator</span>
                     </h3>
-                    <p class="card-years">2008-2010</p>
+                    <p class="card-years">April 2007 - January 2025</p>
 
                     <ul class="card-list">
-                        <li class="card-list-item">3.9 GPA - Magna Cum Laude</li>
+                        <li class="card-list-item">Bootstrapped from a single apartment complex and solo operator to a multi-faceted company with 16 employees and two-dozen properties</li>
+                        <li class="card-list-item">Developed training techniques that enabled new hires with no prior experience to run their own projects in under two months</li>
+                        <li class="card-list-item">Navigated and grew the company through multiple crises in an industry heavily influenced by micro and macro economic conditions</li>
+                        <li class="card-list-item">Self-taught HR, payroll, benefits administration, tax compliance, and full books ownership from scratch</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+
+        <section class="section experience education">
+            <h2>Education</h2>
+
+            <div class="experience-cards flex-center">
+                <div class="experience-card">
+                    <h3 class="card-title">
+                        University of Pittsburgh - <span class="highlight">BA Philosophy</span>
+                    </h3>
+                    <p class="card-years">August 2008 - August 2010</p>
+
+                    <ul class="card-list">
+                        <li class="card-list-item">Magna Cum Laude</li>
                         <li class="card-list-item">Full time while growing painting business</li>
                     </ul>
                 </div>
                 <div class="experience-card">
                     <h3 class="card-title">
-                        Coding Courses
+                        Butler County Community College - <span class="highlight">Associates, Computer Programming</span>
                     </h3>
-                    <p class="card-years">2022-2023</p>
+                    <p class="card-years">August 2004 - May 2006</p>
 
                     <ul class="card-list">
-                        <li class="card-list-item">Dapp University Mentorship</li>
-                        <li class="card-list-item">Dapp University Blockchain Bootcamp</li>
-                        <li class="card-list-item">Free Code Camp &lpar;Python, HTML, CSS, JavaScript&rpar;</li>
+                        <li class="card-list-item">Magna Cum Laude</li>
                     </ul>
                 </div>
             </div>
@@ -245,11 +273,11 @@
                 </div>
 
                 <ul class="flex-list list-items-circle">
-                    <li>
+                    <!-- <li>
                         <a href="https://www.linkedin.com/in/derrek-brack-5180a8286/" target="_blank">
                             <i class="fab fa-linkedin"></i>
                         </a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="https://github.com/D-Brack/" target="_blank">
                             <i class="fab fa-github"></i>
@@ -274,21 +302,21 @@
             </h1>
 
             <p>
-                I’m a blockchain maximalist looking to learn and grow
-                as rapidly as the blockchain industry itself.
+                Open to full-time roles, freelance engagements, and founder-track opportunities in
+                blockchain and web3.
             </p>
 
             <ul class="contact-details flex-list">
                 <li>Digital Nomad, United States</li>
                 <hr />
-                <li>(412) 585-1204</li>
+                <li>412.585.1204</li>
                 <hr />
                 <li><a href="mailto: derrek.brack@protonmail.com">derrek.brack@protonmail.com</a></li>
             </ul>
         </section>
     </main>
     <footer class="footer flex-center">
-        <p><small>© Derrek Brack 2023. All rights reserved.</small></p>
+        <p><small>© Derrek Brack 2026. All rights reserved.</small></p>
     </footer>
 
     <!-- Plugin JavaScript -->
