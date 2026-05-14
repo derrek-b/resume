@@ -221,7 +221,7 @@ p {
     background-size: cover;
     background-position: center;
     min-height: 550px;               /* added to accomodate for removed content - remove when unnecessary */
-    padding: 110px 110px 0px 110px;  /* added to accomodate for removed content - remove when unnecessary */
+    padding: 110px 110px 5px 110px;  /* added to accomodate for removed content - remove when unnecessary */
 }
 
 .about h2 {
@@ -394,9 +394,16 @@ p {
 .education {
     min-height: auto;
     padding-top: 0;
+    padding-bottom: 0;
+    background-image: none;
+    margin-top: 110px;
 }
 
 /* === SKILLS === */
+
+.skills {
+    min-height: auto;
+}
 
 .skills .skill-groups {
     display: flex;
